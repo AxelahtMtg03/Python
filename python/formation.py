@@ -69,9 +69,7 @@ def retour():
 nom = demanderLeNom()
 age = demander_age()
 
-if age > 18:
-    print("Vous etes majeur")
-elif age == 17:
+if age == 17:
     print("Vous etes preque majeur")
 elif age == 1 or age == 2:
     print("Vous etes un bebe")
@@ -81,6 +79,8 @@ elif age == 18:
     print("felicitation pile majeur")
 elif age > 60:
     print("Vous etes senior")
+elif age > 18:
+    print("Vous etes majeur")
 else:
     print("Vous n'etes pas majeur")
 
